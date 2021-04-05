@@ -1,0 +1,39 @@
+body{
+				background-color: rgb(223,220,220)
+			}
+			td,th{
+				border: 1px solid white;
+			}
+			thead th{
+				width: 7%;
+				color: white;
+				padding: 20px;
+				background: linear-gradient(purple,black);
+				font-weight: bold;
+				font-size: 15px;
+				border: none;
+
+			}
+			td{
+				text-align: center;
+			}
+			
+			table{
+				margin: auto;
+			}
+			tbody td{
+				padding: 10px;
+				color: white;
+
+			}
+			tbody tr:nth-child(odd){
+				background:linear-gradient(45deg,darkred,black,purple);
+
+			}
+			tbody tr:nth-child(even){
+				background:linear-gradient(45deg,rgb(77,9,9),rgb(57,12,116));
+
+			}
+			tbody tr:hover td{
+				background-color: rgb(238,236,236,0.6)
+			}
